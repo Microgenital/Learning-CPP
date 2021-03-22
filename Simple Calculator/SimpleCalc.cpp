@@ -20,7 +20,7 @@ int main() {
     cin >> op2;
 
     // Erkennen ob der eingegebene operator gültig ist
-    if (op2 != string("+") && op2 != string("-") && op2 != string("*") && op2 != string("/")){
+    if (op2 != string("+") && op2 != string("-") && op2 != string("*") && op2 != string("/")) {
         cout << string("Keinen gültigen operator eingegeben!") << endl;
         main();
     }
@@ -34,22 +34,22 @@ int main() {
         cin >> b;
 
         // Berechnungen
-        if (op2 == string("+")){
+        if (op2 == string("+")) {
             ergebnis = a + b;
             cout << calc << ergebnis << endl;
         }
 
-        else if (op2 == string("-")){
+        else if (op2 == string("-")) {
             ergebnis = a - b;
             cout << calc << ergebnis << endl;
         }
 
-        else if (op2 == string("*")){
+        else if (op2 == string("*")) {
             ergebnis = a * b;
             cout << calc << ergebnis << endl;
         }
 
-        else if (op2 == string("/")){
+        else if (op2 == string("/")) {
             ergebnis = a / b;
             cout << calc << ergebnis << endl;
         }
